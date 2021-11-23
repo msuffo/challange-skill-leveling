@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A68F511E93E1AFE0F863CD /* Pods_skillLeveling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967DF5454B90041F775F0944 /* Pods_skillLeveling.framework */; };
+		616EEAD5734E299C2F87728C /* Pods_skillLevelingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C928407938B19DB77119FD /* Pods_skillLevelingTests.framework */; };
+		7E8EEF2CA3430F37AAD43761 /* Pods_skillLeveling_skillLevelingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C8F4A59817A4D364FDFE22 /* Pods_skillLeveling_skillLevelingUITests.framework */; };
+		D0010008273F3AD9007C9197 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0010007273F3AD9007C9197 /* HomeViewController.xib */; };
+		D001001427405CF3007C9197 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001001327405CF3007C9197 /* SearchService.swift */; };
+		D001001627405D1E007C9197 /* AlamofireAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001001527405D1E007C9197 /* AlamofireAPIClient.swift */; };
+		D001001927415600007C9197 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001001827415600007C9197 /* Category.swift */; };
+		D001001B27443C02007C9197 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001001A27443C02007C9197 /* Product.swift */; };
+		D0010021274455E5007C9197 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D001001F274455E5007C9197 /* ProductViewController.swift */; };
+		D0010022274455E5007C9197 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0010020274455E5007C9197 /* ProductViewController.xib */; };
+		D00100242747FC7B007C9197 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00100232747FC7B007C9197 /* UIImageView.swift */; };
+		D001002A2748012C007C9197 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00100282748012C007C9197 /* TableViewCell.swift */; };
+		D001002B2748012C007C9197 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00100292748012C007C9197 /* TableViewCell.xib */; };
 		D05F2360273B044A004AC0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F235F273B044A004AC0E7 /* AppDelegate.swift */; };
 		D05F2362273B044A004AC0E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F2361273B044A004AC0E7 /* SceneDelegate.swift */; };
-		D05F2364273B044A004AC0E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F2363273B044A004AC0E7 /* ViewController.swift */; };
-		D05F2367273B044A004AC0E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05F2365273B044A004AC0E7 /* Main.storyboard */; };
 		D05F2369273B044D004AC0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05F2368273B044D004AC0E7 /* Assets.xcassets */; };
 		D05F236C273B044D004AC0E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05F236A273B044D004AC0E7 /* LaunchScreen.storyboard */; };
 		D05F2377273B044D004AC0E7 /* skillLevelingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F2376273B044D004AC0E7 /* skillLevelingTests.swift */; };
 		D05F2381273B044D004AC0E7 /* skillLevelingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F2380273B044D004AC0E7 /* skillLevelingUITests.swift */; };
 		D05F2383273B044D004AC0E7 /* skillLevelingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F2382273B044D004AC0E7 /* skillLevelingUITestsLaunchTests.swift */; };
+		D05F2393273B06F2004AC0E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F2391273B06F2004AC0E7 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F39C12C1A2E7EA582CFA02 /* Pods-skillLeveling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillLeveling.release.xcconfig"; path = "Target Support Files/Pods-skillLeveling/Pods-skillLeveling.release.xcconfig"; sourceTree = "<group>"; };
+		05CF81F76B33824C5DB6D859 /* Pods-skillLeveling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillLeveling.debug.xcconfig"; path = "Target Support Files/Pods-skillLeveling/Pods-skillLeveling.debug.xcconfig"; sourceTree = "<group>"; };
+		17ADEA2712D216AC0B0977CF /* Pods-skillLevelingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillLevelingTests.debug.xcconfig"; path = "Target Support Files/Pods-skillLevelingTests/Pods-skillLevelingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		967DF5454B90041F775F0944 /* Pods_skillLeveling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillLeveling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C8F4A59817A4D364FDFE22 /* Pods_skillLeveling_skillLevelingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillLeveling_skillLevelingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07350B684398C27E5F22D62 /* Pods-skillLeveling-skillLevelingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillLeveling-skillLevelingUITests.release.xcconfig"; path = "Target Support Files/Pods-skillLeveling-skillLevelingUITests/Pods-skillLeveling-skillLevelingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0C928407938B19DB77119FD /* Pods_skillLevelingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillLevelingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FD27DBFC8ACC5FD804BCDF /* Pods-skillLeveling-skillLevelingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillLeveling-skillLevelingUITests.debug.xcconfig"; path = "Target Support Files/Pods-skillLeveling-skillLevelingUITests/Pods-skillLeveling-skillLevelingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0010007273F3AD9007C9197 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D001001327405CF3007C9197 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		D001001527405D1E007C9197 /* AlamofireAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAPIClient.swift; sourceTree = "<group>"; };
+		D001001827415600007C9197 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D001001A27443C02007C9197 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D001001F274455E5007C9197 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		D0010020274455E5007C9197 /* ProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		D00100232747FC7B007C9197 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		D00100282748012C007C9197 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D00100292748012C007C9197 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		D05F235C273B044A004AC0E7 /* skillLeveling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skillLeveling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05F235F273B044A004AC0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D05F2361273B044A004AC0E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D05F2363273B044A004AC0E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D05F2366273B044A004AC0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D05F2368273B044D004AC0E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D05F236B273B044D004AC0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D05F236D273B044D004AC0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +77,8 @@
 		D05F237C273B044D004AC0E7 /* skillLevelingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skillLevelingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05F2380273B044D004AC0E7 /* skillLevelingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillLevelingUITests.swift; sourceTree = "<group>"; };
 		D05F2382273B044D004AC0E7 /* skillLevelingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillLevelingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D05F2391273B06F2004AC0E7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA22F6B62A5026160A4F7A30 /* Pods-skillLevelingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillLevelingTests.release.xcconfig"; path = "Target Support Files/Pods-skillLevelingTests/Pods-skillLevelingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A68F511E93E1AFE0F863CD /* Pods_skillLeveling.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616EEAD5734E299C2F87728C /* Pods_skillLevelingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8EEF2CA3430F37AAD43761 /* Pods_skillLeveling_skillLevelingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A148F849EEF5527516EE7EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05CF81F76B33824C5DB6D859 /* Pods-skillLeveling.debug.xcconfig */,
+				00F39C12C1A2E7EA582CFA02 /* Pods-skillLeveling.release.xcconfig */,
+				C8FD27DBFC8ACC5FD804BCDF /* Pods-skillLeveling-skillLevelingUITests.debug.xcconfig */,
+				C07350B684398C27E5F22D62 /* Pods-skillLeveling-skillLevelingUITests.release.xcconfig */,
+				17ADEA2712D216AC0B0977CF /* Pods-skillLevelingTests.debug.xcconfig */,
+				FA22F6B62A5026160A4F7A30 /* Pods-skillLevelingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D001001227405CBC007C9197 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D001001327405CF3007C9197 /* SearchService.swift */,
+				D001001527405D1E007C9197 /* AlamofireAPIClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D0010017274154DA007C9197 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D001001827415600007C9197 /* Category.swift */,
+				D001001A27443C02007C9197 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D001001E274455D3007C9197 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				D001001F274455E5007C9197 /* ProductViewController.swift */,
+				D0010020274455E5007C9197 /* ProductViewController.xib */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		D00100252747FE4F007C9197 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D001002C274817E8007C9197 /* TableCell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D001002C274817E8007C9197 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				D00100282748012C007C9197 /* TableViewCell.swift */,
+				D00100292748012C007C9197 /* TableViewCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
 		D05F2353273B044A004AC0E7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +173,8 @@
 				D05F2375273B044D004AC0E7 /* skillLevelingTests */,
 				D05F237F273B044D004AC0E7 /* skillLevelingUITests */,
 				D05F235D273B044A004AC0E7 /* Products */,
+				A148F849EEF5527516EE7EAD /* Pods */,
+				EB2D9F748839CB3D025DC048 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +191,16 @@
 		D05F235E273B044A004AC0E7 /* skillLeveling */ = {
 			isa = PBXGroup;
 			children = (
+				D00100252747FE4F007C9197 /* Components */,
+				D0010017274154DA007C9197 /* Models */,
+				D001001227405CBC007C9197 /* Services */,
+				D05F238F273B06CA004AC0E7 /* ViewControllers */,
 				D05F235F273B044A004AC0E7 /* AppDelegate.swift */,
 				D05F2361273B044A004AC0E7 /* SceneDelegate.swift */,
-				D05F2363273B044A004AC0E7 /* ViewController.swift */,
-				D05F2365273B044A004AC0E7 /* Main.storyboard */,
 				D05F2368273B044D004AC0E7 /* Assets.xcassets */,
 				D05F236A273B044D004AC0E7 /* LaunchScreen.storyboard */,
 				D05F236D273B044D004AC0E7 /* Info.plist */,
+				D00100232747FC7B007C9197 /* UIImageView.swift */,
 			);
 			path = skillLeveling;
 			sourceTree = "<group>";
@@ -127,6 +222,34 @@
 			path = skillLevelingUITests;
 			sourceTree = "<group>";
 		};
+		D05F238F273B06CA004AC0E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D001001E274455D3007C9197 /* Product */,
+				D05F2390273B06D6004AC0E7 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D05F2390273B06D6004AC0E7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D0010007273F3AD9007C9197 /* HomeViewController.xib */,
+				D05F2391273B06F2004AC0E7 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EB2D9F748839CB3D025DC048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967DF5454B90041F775F0944 /* Pods_skillLeveling.framework */,
+				A3C8F4A59817A4D364FDFE22 /* Pods_skillLeveling_skillLevelingUITests.framework */,
+				C0C928407938B19DB77119FD /* Pods_skillLevelingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D05F2386273B044D004AC0E7 /* Build configuration list for PBXNativeTarget "skillLeveling" */;
 			buildPhases = (
+				AD50166B42170D8DE1F1CC01 /* [CP] Check Pods Manifest.lock */,
 				D05F2358273B044A004AC0E7 /* Sources */,
 				D05F2359273B044A004AC0E7 /* Frameworks */,
 				D05F235A273B044A004AC0E7 /* Resources */,
+				6F38AF2D6CE6D5109639FD6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D05F2389273B044D004AC0E7 /* Build configuration list for PBXNativeTarget "skillLevelingTests" */;
 			buildPhases = (
+				5A151E943D1E3D342AA44E72 /* [CP] Check Pods Manifest.lock */,
 				D05F236E273B044D004AC0E7 /* Sources */,
 				D05F236F273B044D004AC0E7 /* Frameworks */,
 				D05F2370273B044D004AC0E7 /* Resources */,
@@ -169,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D05F238C273B044D004AC0E7 /* Build configuration list for PBXNativeTarget "skillLevelingUITests" */;
 			buildPhases = (
+				3BFAC82D8D31D620320275BF /* [CP] Check Pods Manifest.lock */,
 				D05F2378273B044D004AC0E7 /* Sources */,
 				D05F2379273B044D004AC0E7 /* Frameworks */,
 				D05F237A273B044D004AC0E7 /* Resources */,
+				7714BAAB0D130F7019362B94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +360,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D05F236C273B044D004AC0E7 /* LaunchScreen.storyboard in Resources */,
+				D001002B2748012C007C9197 /* TableViewCell.xib in Resources */,
 				D05F2369273B044D004AC0E7 /* Assets.xcassets in Resources */,
-				D05F2367273B044A004AC0E7 /* Main.storyboard in Resources */,
+				D0010022274455E5007C9197 /* ProductViewController.xib in Resources */,
+				D0010008273F3AD9007C9197 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +383,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BFAC82D8D31D620320275BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-skillLeveling-skillLevelingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A151E943D1E3D342AA44E72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-skillLevelingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F38AF2D6CE6D5109639FD6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skillLeveling/Pods-skillLeveling-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skillLeveling/Pods-skillLeveling-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-skillLeveling/Pods-skillLeveling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7714BAAB0D130F7019362B94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skillLeveling-skillLevelingUITests/Pods-skillLeveling-skillLevelingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skillLeveling-skillLevelingUITests/Pods-skillLeveling-skillLevelingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-skillLeveling-skillLevelingUITests/Pods-skillLeveling-skillLevelingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD50166B42170D8DE1F1CC01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-skillLeveling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D05F2358273B044A004AC0E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05F2364273B044A004AC0E7 /* ViewController.swift in Sources */,
+				D001001B27443C02007C9197 /* Product.swift in Sources */,
 				D05F2360273B044A004AC0E7 /* AppDelegate.swift in Sources */,
+				D001001427405CF3007C9197 /* SearchService.swift in Sources */,
 				D05F2362273B044A004AC0E7 /* SceneDelegate.swift in Sources */,
+				D001001627405D1E007C9197 /* AlamofireAPIClient.swift in Sources */,
+				D001002A2748012C007C9197 /* TableViewCell.swift in Sources */,
+				D0010021274455E5007C9197 /* ProductViewController.swift in Sources */,
+				D05F2393273B06F2004AC0E7 /* HomeViewController.swift in Sources */,
+				D00100242747FC7B007C9197 /* UIImageView.swift in Sources */,
+				D001001927415600007C9197 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +537,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D05F2365273B044A004AC0E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D05F2366273B044A004AC0E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D05F236A273B044D004AC0E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +666,7 @@
 		};
 		D05F2387273B044D004AC0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CF81F76B33824C5DB6D859 /* Pods-skillLeveling.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,9 +675,9 @@
 				DEVELOPMENT_TEAM = CC9999S84A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = skillLeveling/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,12 +689,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D05F2388273B044D004AC0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F39C12C1A2E7EA582CFA02 /* Pods-skillLeveling.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,9 +704,9 @@
 				DEVELOPMENT_TEAM = CC9999S84A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = skillLeveling/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,12 +718,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		D05F238A273B044D004AC0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17ADEA2712D216AC0B0977CF /* Pods-skillLevelingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +750,7 @@
 		};
 		D05F238B273B044D004AC0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA22F6B62A5026160A4F7A30 /* Pods-skillLevelingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +776,7 @@
 		};
 		D05F238D273B044D004AC0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FD27DBFC8ACC5FD804BCDF /* Pods-skillLeveling-skillLevelingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +800,7 @@
 		};
 		D05F238E273B044D004AC0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07350B684398C27E5F22D62 /* Pods-skillLeveling-skillLevelingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
